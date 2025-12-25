@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.add {
+  display: flex;
+  gap: 8px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.done span {
+  text-decoration: line-through;
+  color: gray;
+}
